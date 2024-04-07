@@ -1,0 +1,50 @@
+:root{
+--primary-color:#E76f51;
+--secondary-color: #F8E1DB;
+--white:#fff;
+--grey:#D2D2D2;
+--dark: #3B3735;
+--opp-bg:#fAf4f2;
+--primary-font: "Roboto", Arial, Helvetica, sans-serif;
+--primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
+--secondary-font: "Archivo Black", Arial, Helvetica, sans-serif
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */
+    scroll-behavior: smooth;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    line-height: 1.6;
+    font-size: 1.6rem;
+    user-select: none;
+    font-family: var(--primary-font);
+    background-color: var(--opp-bg);
+}
+
+/* 
+-----------------
+Reset style
+-----------------
+*/
+
+a{
+    text-decoration: none;
+}
+
+
+ /* 
+ --------------
+ Helper class
+ --------------
+  */
+
+   /* 
+ --------------
+ component
+ --------------
+  */
